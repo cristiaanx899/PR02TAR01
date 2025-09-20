@@ -8,3 +8,6 @@ CREATE TABLE productos (
     descripcion VARCHAR(200),
     precio DECIMAL(10,2) NOT NULL
 );
+
+INSERT INTO productos (nombre, descripcion, precio) VALUES ('Producto 1', 'Descripción 1', 10.50);
+INSERT INTO productos (nombre, descripcion, precio) VALUES ('Producto 2', 'Descripción 2', 20.00);
