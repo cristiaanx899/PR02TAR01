@@ -1,0 +1,77 @@
+body {
+    background: #e0e5ec;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    color: #222;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+#main-container {
+    max-width: 500px;
+    margin: 40px auto;
+    background: #e0e5ec;
+    border-radius: 18px;
+    box-shadow: 9px 9px 16px #b8bac0, -9px -9px 16px #ffffff;
+    padding: 32px 24px 24px 24px;
+}
+#listaProductos {
+    margin-bottom: 20px;
+}
+#listaProductos label {
+    display: block;
+    margin-bottom: 10px;
+    padding: 12px 18px;
+    border-radius: 10px;
+    background: #e0e5ec;
+    box-shadow: 3px 3px 8px #b8bac0, -3px -3px 8px #ffffff;
+    transition: box-shadow 0.2s, background 0.2s;
+    cursor: pointer;
+    font-size: 1rem;
+}
+#listaProductos label:hover {
+    background: #f1f5f9;
+    box-shadow: 6px 6px 12px #b8bac0, -6px -6px 12px #ffffff;
+}
+#listaProductos input[type="radio"]:checked + span {
+    font-weight: bold;
+    color: #2563eb;
+}
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+button {
+    background: #e0e5ec;
+    color: #222;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 3px 3px 8px #b8bac0, -3px -3px 8px #ffffff;
+    transition: box-shadow 0.2s, background 0.2s, color 0.2s;
+}
+button:hover {
+    background: #f3f4f6;
+    color: #2563eb;
+    box-shadow: 6px 6px 12px #b8bac0, -6px -6px 12px #ffffff;
+}
+#mensaje {
+    margin-top: 18px;
+    padding: 12px;
+    border-radius: 8px;
+    background: #e0e5ec;
+    color: #3730a3;
+    font-size: 1rem;
+    text-align: center;
+    min-height: 24px;
+    box-shadow: 3px 3px 8px #b8bac0, -3px -3px 8px #ffffff;
+}
