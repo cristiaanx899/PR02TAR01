@@ -1,0 +1,4 @@
+com\ejemplo\dao\ProductoDAO.class
+com\ejemplo\model\Producto.class
+com\ejemplo\controller\EliminarProductoServlet.class
+com\ejemplo\util\ConexionBD.class
